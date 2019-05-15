@@ -50,7 +50,7 @@ Dans cette première partie, vous allez capturer une connexion WPA Entreprise au
 	- Authentification interne et transmission de la clé WPA (échange chiffré, vu comme « Application data »)
 	- 4-way hadshake
 
-###Répondez aux questions suivantes :
+### Répondez aux questions suivantes :
  
 > **_Question :_** Quelle ou quelles méthode(s) d’authentification est/sont proposé(s) au client ?
 > 
@@ -92,6 +92,8 @@ Pour implémenter l’attaque :
 - Lancer une capture Wireshark
 - Tenter une connexion au réseau (ne pas utiliser vos identifiants réels)
 - Utiliser un outil de brute-force (```john```, par exemple) pour attaquer le hash capturé (utiliser un mot de passe assez petit pour minimiser le temps)
+
+### Répondez aux questions suivantes :
 
 > **_Question :_** Quelles modifications sont nécessaires dans la configuration de hostapd-wpe pour cette attaque ?
 > 
